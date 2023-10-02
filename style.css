@@ -1,0 +1,108 @@
+/* Reset some default browser styles */
+body, h1, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #247aaf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.title{
+    padding: 20px;
+}
+
+/* Center the container vertically and horizontally */
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+
+/* Style the timer */
+.timer-container {
+    position: relative;
+}
+
+.timer {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #a3c0e9;
+    color: #fff;
+    font-size: 24px;
+    line-height: 200px;
+    margin: 0 auto;
+}
+
+/* Style the input and button */
+#quoteInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #abcee8;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin: auto -10px;
+}
+
+/* Style the quotes section */
+.quotes {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.quotes p {
+    margin: 10px 0;
+}
+
+/* Add additional styles as needed */
+
+
+/* Add additional styles as needed */
+
+.buttonContainer{
+    padding: 20px;
+}
+
+ button, .addQuote {
+    -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        background: #a9c9de;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+      
+button:hover {
+        background: #fa7b3c;
+        background-image: -webkit-linear-gradient(top, #fa7b3c, #399ddb);
+        background-image: -moz-linear-gradient(top, #fa7b3c, #399ddb);
+        background-image: -ms-linear-gradient(top, #fa7b3c, #399ddb);
+        background-image: -o-linear-gradient(top, #fa7b3c, #399ddb);
+        background-image: linear-gradient(to bottom, #fa7b3c, #399ddb);
+        text-decoration: none;
+      } 
